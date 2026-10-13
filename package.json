@@ -1,0 +1,17 @@
+{
+  "name": "hasnanchat-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HasnanChat starter for Vercel with shared database-backed chat API",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/kv": "^3.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^39.2.0"
+  }
+}
